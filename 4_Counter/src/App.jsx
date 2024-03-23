@@ -8,13 +8,19 @@ function App() {
   //  let counter = 15
   const addValue = function () {
     // console.log("clicked", Math.random());
-    console.log("clicked", counter);
-    counter = counter + 1;
-    setCounter(counter);
+    // console.log("clicked", counter);
+    // counter = counter + 1;
+    // setCounter(counter);
+    if (counter < 20) {
+      setCounter(counter+1)
+    }
   };
 
   const removeValue = function () {
-    setCounter(counter - 1);
+    // setCounter(counter - 1);
+    if (counter > 0) {
+      setCounter(counter-1)
+    }
   };
 
   return (
