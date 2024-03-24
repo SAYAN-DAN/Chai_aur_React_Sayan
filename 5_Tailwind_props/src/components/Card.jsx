@@ -24,3 +24,4 @@ function Card({username , profile}) {
 }
 
 export default Card
+
