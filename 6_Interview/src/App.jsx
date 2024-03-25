@@ -12,10 +12,10 @@ function App() {
     // }
 
     // count = count +1
-    setCount((prevCounter) =>(prevCounter + 1));
-    setCount((prevCounter) =>(prevCounter + 1));
-    setCount((prevCounter) =>(prevCounter + 1));
-    setCount((prevCounter) =>(prevCounter + 1));
+    setCount((prevCounter) => prevCounter + 1);
+    setCount((prevCounter) => prevCounter + 1);
+    setCount((prevCounter) => prevCounter + 1);
+    setCount((prevCounter) => prevCounter + 1);
   };
 
   const removeValue = function () {
